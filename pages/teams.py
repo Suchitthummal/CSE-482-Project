@@ -375,7 +375,7 @@ def process_injury_data(df):
         y=pivot_table.index.tolist(),
         color_continuous_scale='Reds',
         aspect="auto",
-        title="Team Injury Heatmap: Injuries by Team and Type"
+        title="Team Injury Heatmap: Games Missed for Injuries by Team and Type"
     )
     fig_heatmap.update_layout(
         height=600,
