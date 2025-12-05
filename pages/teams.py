@@ -429,7 +429,7 @@ if summary_table is not None and not summary_table.empty:
         components.append(
             html.Div([
                 html.H3(
-                    "Injury Heatmap",
+                    "Historic Injury Heatmap",
                     style={"textAlign": "center", "marginTop": "30px", "marginBottom": "20px"}
                 ),
                 dcc.Graph(figure=heatmap_fig)
@@ -439,7 +439,7 @@ if summary_table is not None and not summary_table.empty:
     components.append(
         html.Div([
             html.H3(
-                "Injury Summary Table",
+                "Historic Injury Summary Table",
                 style={"textAlign": "center", "marginTop": "40px", "marginBottom": "20px"}
             ),
             dash_table.DataTable(
